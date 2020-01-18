@@ -38,6 +38,14 @@ Find devices based on open ports.<br/>
 Find devices before or after between a given time.<br/>
 `apache after:22/02/2009 before:14/3/2010`
 
+### Citrix:
+Find Citrix Gateway.<br/>
+`title:"citrix gateway"`
+
+### Wifi Passwords:
+Helps to find the cleartext wifi passwords in Shodan.</br>
+`html:"def_wirelesspassword"`
+
 ### YOU CAN ALSO COMBINE FILTERS TO MAKE INTO ADVANCED FILTERS FOR QUICK RECON.
 
 *Please create a pull request if you want to contribute.*
