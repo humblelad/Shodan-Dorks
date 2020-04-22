@@ -1,5 +1,5 @@
 # Shodan Dorks
-*Dorks for shodan.io* website.
+*Dorks for shodan.io* website. Taken from publicly availabel sources.
 
 # Shodan
 _Shodan is a search engine that lets the user find specific types
@@ -45,6 +45,14 @@ Find Citrix Gateway.<br/>
 ### Wifi Passwords:
 Helps to find the cleartext wifi passwords in Shodan.</br>
 `html:"def_wirelesspassword"`
+
+### Surveillance Cams:
+With username:admin and password: :P</br>
+`NETSurveillance uc-httpd`
+
+### Fuel Pumps connected to internet:
+No auth required to access CLI terminal.</br>
+`"privileged command" GET`
 
 ### YOU CAN ALSO COMBINE FILTERS TO MAKE INTO ADVANCED FILTERS FOR QUICK RECON.
 
