@@ -54,6 +54,40 @@ With username:admin and password: :P</br>
 No auth required to access CLI terminal.</br>
 `"privileged command" GET`
 
+### Windows RDP Password:
+But may contain secondary windows auth</br>
+`"\x03\x00\x00\x0b\x06\xd0\x00\x00\x124\x00"`
+
+### Mongo DB servers:
+It may give info about mongo db servers and dashboard </br>
+`"MongoDB Server Information" port:27017 -authentication`
+
+### FTP servers allowing anonymous access:
+Complete Anon access </br>
+`"220" "230 Login successful." port:21`
+
+### Jenkins:
+Jenkins Unrestricted Dashboard </br>
+`x-jenkins 200`
+
+### Hacked routers:
+Routers which got compromised </br>
+`hacked-router-help-sos`
+
+### Open ATM:
+May allow for ATM Access availability </br>
+`NCR Port:"161"`
+
+### Telnet Access:
+NO password required for telnet access. </br>
+`port:23 console gateway`
+
+### Misconfigured Wordpress Sites:
+The wp-config.php if accessed can give out the database credentials. </br>
+`http.html:"* The wp-config.php creation script uses this file"`
+
+
+
 ### YOU CAN ALSO COMBINE FILTERS TO MAKE INTO ADVANCED FILTERS FOR QUICK RECON.
 
 *Please create a pull request if you want to contribute.*
