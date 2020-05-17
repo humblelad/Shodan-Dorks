@@ -1,5 +1,5 @@
 # Shodan Dorks
-*Dorks for shodan.io* website. Taken from publicly availabel sources.
+*Dorks for shodan.io* website. Taken from publicly available sources.
 
 # Shodan
 _Shodan is a search engine that lets the user find specific types
