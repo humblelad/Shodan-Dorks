@@ -86,6 +86,23 @@ NO password required for telnet access. </br>
 The wp-config.php if accessed can give out the database credentials. </br>
 `http.html:"* The wp-config.php creation script uses this file"`
 
+### Hiring:
+Find sites hiring. </br>
+`"X-Recruiting:"`
+
+### Android Root Bridge:
+Find android root bridges with port 5555. </br>
+`"Android Debug Bridge" "Device" port:5555`
+
+### Etherium Miners:
+Shows the miners running ETH. </br>
+`"ETH - Total speed"`
+
+### Tesla Powerpack charging Status:
+Helps to find the charging status of tesla powerpack. </br>
+`http.title:"Tesla PowerPack System" http.component:"d3" -ga3ca4f2`
+
+
 
 
 ### YOU CAN ALSO COMBINE FILTERS TO MAKE INTO ADVANCED FILTERS FOR QUICK RECON.
